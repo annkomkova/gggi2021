@@ -27,11 +27,11 @@
               `translate(${margin.left},${margin.top})`);
 
     // get the data
-    d3.csv("gggi.svg").then( function(data) {
+    d3.csv("https://raw.githubusercontent.com/annkomkova/gggi2021/main/gggi2021.csv").then( function(data) {
 
       // X axis: scale and draw:
       const x = d3.scaleLinear()
-          .domain([0, 600])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.price })
+          .domain([0, 600])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.gggi2021score })
           .range([0, width]);
       svg.append("g")
           .attr("transform", `translate(0, ${height})`)
@@ -39,7 +39,7 @@
 
       // set the parameters for the histogram
       const histogram = d3.histogram()
-          .value(function(d) { return d.price; })   // I need to give the vector of value
+          .value(function(d) { return d.gggi2021score; })   // I need to give the vector of value
           .domain(x.domain())  // then the domain of the graphic
           .thresholds(x.ticks(70)); // then the numbers of bins
 
