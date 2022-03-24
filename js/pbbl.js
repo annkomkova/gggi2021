@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "https://raw.githubusercontent.com/annkomkova/gggi2021/main/gggi2021.csv",
+    url: "https://raw.githubusercontent.com/annkomkova/gggi2021/main/data/gggi2021.csv",
     dataType: "text",
     success: function(data) {
       processData(data);
