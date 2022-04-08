@@ -1,4 +1,4 @@
-country,image,gggi2006rank,gggi2006score,gggi2021rank,gggi2021score,epo2006rank,epo2006score,epo2021rank,epo2021score,ea2006rank,ea2006score,ea2021rank,ea2021score,hs2006rank,hs2006score,hs2021rank,hs2021score,pe2006rank,pe2006score,pe2021rank,pe2021score,region
+country,image,gggi2006rank,gggi2006score,gggi2021rank,gggi2021score,epo2006rank,epo2006score,epo2021rank,epo2021score,ea2006rank,ea2006score,ea2021rank,ea2021score,hs2006rank,hs2006score,hs2021rank,hs2021score,pe2006rank,pe2006score,pe2021rank,pe2021score,region,regioncode
 Iceland,1,4,0.781,1,0.892,17,0.711,4,0.846,50,0.991,38,0.999,92,0.968,127,0.964,4,0.456,1,0.760,Europe,eu
 Finland,2,3,0.796,2,0.861,8,0.734,13,0.806,18,0.999,1,1.000,1,0.980,79,0.970,3,0.470,2,0.669,Europe,eu
 Norway,3,2,0.799,3,0.849,11,0.729,20,0.792,15,1.000,33,1.000,61,0.975,126,0.964,2,0.494,3,0.640,Europe,eu
