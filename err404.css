@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@500&display=swap');
+h1 {
+  font-family: 'Comforter', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 80vh;
+}
